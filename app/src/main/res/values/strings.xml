@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Strava</string>
+    <string name="sarah_alder">Sarah Alder</string>
+    <string name="august_22_380055_7_43_pm">August 22,7:43 pm</string>
+    <string name="mount_marathon">Mount Marathon</string>
+    <string name="distancia">Distancia</string>
+    <string name="Distancia">Distancia</string>
+    <string name="altitud_ganada">Altitud Ganada</string>
+    <string name="tiempo_total">Tiempo Total</string>
+    <string name="avg_power">Avg Power</string>
+    <string name="_393">393</string>
+    <string name="_11_0mi_h">11.0mi/h</string>
+    <string name="_22_04">22:04</string>
+    <string name="_319">319</string>
+    <string name="view_analysis">View Analysis</string>
+</resources>
