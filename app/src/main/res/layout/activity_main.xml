@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout2"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -60,13 +60,14 @@
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="71dp" />
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView2"
-        android:layout_width="411dp"
-        android:layout_height="249dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="105dp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="874dp"
+        android:layout_height="259dp"
+        app:srcCompat="@drawable/mapa"
+        tools:layout_editor_absoluteX="-232dp"
+        tools:layout_editor_absoluteY="105dp"
+        tools:ignore="MissingConstraints" />
 
     <TableLayout
         android:id="@+id/Tabla"
@@ -235,7 +236,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-
         <TableRow
             android:id="@+id/Fila3"
             android:layout_width="fill_parent"
@@ -308,7 +308,7 @@
 
         <ImageButton
             android:id="@+id/imageButton2"
-            android:layout_width="440"
+            android:layout_width="440dp"
             android:layout_height="46dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/logo4" />
@@ -358,7 +358,8 @@
         android:text="@string/feed"
         tools:layout_editor_absoluteX="16dp"
         android:textColor="#FF5722"
-        tools:layout_editor_absoluteY="714dp" />
+        tools:layout_editor_absoluteY="714dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView8"
@@ -366,7 +367,8 @@
         android:layout_height="wrap_content"
         android:text="@string/explore"
         tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="714dp" />
+        tools:layout_editor_absoluteY="714dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView9"
@@ -374,7 +376,8 @@
         android:layout_height="wrap_content"
         android:text="@string/record"
         tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="714dp" />
+        tools:layout_editor_absoluteY="714dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView10"
@@ -382,7 +385,8 @@
         android:layout_height="wrap_content"
         android:text="Profile"
         tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="714dp" />
+        tools:layout_editor_absoluteY="714dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView11"
@@ -390,7 +394,10 @@
         android:layout_height="wrap_content"
         android:text="Summit"
         tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="714dp" />
+        tools:layout_editor_absoluteY="714dp"
+        tools:ignore="MissingConstraints" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
