@@ -13,4 +13,7 @@
     <string name="_22_04">22:04</string>
     <string name="_319">319</string>
     <string name="view_analysis">View Analysis</string>
+    <string name="feed">Feed</string>
+    <string name="explore">Explore</string>
+    <string name="record">Record</string>
 </resources>
